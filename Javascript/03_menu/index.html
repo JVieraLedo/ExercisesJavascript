@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vehicles</title>
+    <script src="javascript/vehicle.js"></script>
+    <script src="javascript/animals.js"></script>
+    <script src="javascript/main.js"></script>
+</head>
+<body>
+     <form action="#" >
+         <select id="vehicle" onchange="mostrar_elemento(this); ">
+             <option value="Car"       >Coche        </option>
+             <option value="MotorBike" >Moto         </option>
+             <option value="Ship"      >Barco        </option>
+             <option value="Plane"     >Avión        </option>
+             <option value="Bike"      >Bicicleta    </option>
+             <option value="Donkey"    >Burro        </option>
+             <option value="SpaceCraft">Transbordador</option>
+             <option value="Tricycle"  >Triciclo     </option>
+             <option value="SkateBoard">Monopatín    </option>
+             <option value="Helicopter">Helicóptero  </option>
+         </select>
+     </form>
+
+     <form action="">
+         <select id="animal" onchange="mostrar_elemento(this);">
+             <option value="Dog">Perro</option>
+             <option value="Cat">Gato</option>
+             <option value="Lizart">Lagarto</option>
+             <option value="Snake">Serpiente</option>
+             <option value="Eagle">Águila</option>
+             <option value="Bear">Oso</option>
+             <option value="Kangaroo">Canguro</option>
+         </select>
+     </form>
+     <div id="mostrador">
+     </div>
+</body>
+</html>

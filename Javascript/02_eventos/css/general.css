@@ -1,0 +1,18 @@
+body div{
+   border:solid;
+}
+#menu{
+    text-align: center;
+    width:100px;
+    height:20px;
+}
+
+.submenus{
+   position:relative;
+   z-index:1;
+   visibility:hidden;
+   margin:5px;
+   padding: 5px;
+   color:#FF0000;
+   background-color:#000;
+}

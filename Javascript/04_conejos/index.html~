@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Descendencia de conejos</title>
+    <script src="javascript/conejos.js"></script>
+    <script src="javascript/main.js"></script>
+</head>
+<body>
+    
+    <button onclick="crear_generacion('mostrar');">Nueva Generación</button>
+    <div id="mostrar">
+    </div>
+</body>
+</html>
